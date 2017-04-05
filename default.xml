@@ -8,7 +8,11 @@
   <remote  name="aosp-caf"
            fetch="https://github.com/AOSP-CAF"
            revision="refs/heads/n-mr1" />
-
+	   
+	<remote name="slim"
+          fetch="https://github.com/SlimRoms/"
+          revision="ng7.1" />	   
+	  
   <remote  name="caf"
            fetch="http://source.codeaurora.org/quic/la"
            review="codeaurora.org"/>
@@ -19,7 +23,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.5.7.r1-08000-8x98.0"
+  <default revision="refs/tags/LA.UM.5.5.r1-04000-8x96.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+  <remote name="slim"
+          fetch="https://github.com/SlimRoms/"
+          revision="ng7.1" />
+
+    <!-- Slim Additions -->
+  <project path="system/core" remote="slim" name="android_system_core" />
+  <project path="system/media" remote="slim" name="android_system_media" />
+  
+  <project path="external/exfat" remote="slim" name="android_external_exfat" />
+  <project path="external/ffmpeg" remote="slim" name="android_external_ffmpeg" />
+  <project path="external/fuse" remote="slim" name="android_external_fuse" />
+  <project path="external/stagefright-plugins" remote="slim" name="android_external_stagefright-plugins" />
+  <project path="external/ntfs-3g" remote="slim" name="android_external_ntfs-3g" />
+  
+  <project path="frameworks/av" remote="slim" name="frameworks_av" />
+  <project path="frameworks/opt/cards" remote="slim" name="frameworks_opt_cards" />
+  <project path="frameworks/native" remote="slim" name="frameworks_native" />
+<!--  <project path="frameworks/opt/net/wifi" remote="slim" name="frameworks_opt_net_wifi" /> -->
+  
+  <project path="packages/apps/SamsungServiceMode" remote="slim" name="packages_apps_SamsungServiceMode" /> 
+
+
+</manifest>

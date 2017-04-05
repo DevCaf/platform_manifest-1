@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+	  
   <!-- REMOVE PROJECTS -->
   <remove-project name="abl/tianocore/edk2" />
   <remove-project name="device/generic/arm64" />
@@ -25,6 +25,7 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
+  
   <remove-project name="platform/external/ant-wireless/ant_native" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
@@ -38,11 +39,13 @@
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
+  
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio"/>
   <remove-project name="platform/hardware/qcom/bt" />
@@ -52,6 +55,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
+  
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/FMRadio" />
@@ -61,6 +65,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telephony" />
+  
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
@@ -69,6 +74,7 @@
   <remove-project name="platform/system/qcom" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+  
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <remove-project name="platform/vendor/qcom-opensource/dpm" />
@@ -78,6 +84,7 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+  
   <remove-project name="platform/vendor/qcom/cobalt" />
   <remove-project name="platform/vendor/qcom/cobalt_32" />
   <remove-project name="platform/vendor/qcom/falcon_32"/>
@@ -98,19 +105,17 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="platform_build_kati" path="build/kati" remote="aosp-caf" groups="pdk,tradefed" />
+  
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aosp-caf" />
   <project name="platform_external_bash" path="external/bash" remote="aosp-caf" />
   <project name="platform_external_busybox" path="external/busybox" remote="aosp-caf" />
   <project name="platform_external_connectivity" path="external/connectivity" remote="aosp-caf" />
   <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="aosp-caf" />
-  <project name="platform_external_exfat" path="external/exfat" remote="aosp-caf" />
   <project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="aosp-caf" />
   <project name="platform_external_fsck_msdos" path="external/fsck_msdos" remote="aosp-caf" />
-  <project name="platform_external_fuse" path="external/fuse" remote="aosp-caf" />
   <project name="platform_external_jemalloc" path="external/jemalloc" remote="aosp-caf" />
   <project name="platform_external_mksh" path="external/mksh" remote="aosp-caf" />
-  <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="aosp-caf" />
   <project name="platform_external_okhttp" path="external/okhttp" remote="aosp-caf" />
   <project name="platform_external_skia" path="external/skia" remote="aosp-caf" />
   <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="aosp-caf" />
@@ -118,11 +123,10 @@
   <project name="platform_external_toybox" path="external/toybox" remote="aosp-caf" />
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp-caf" />
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
-  <project name="platform_frameworks_av" path="frameworks/av" remote="aosp-caf" />
-  <project name="platform_frameworks_base" path="frameworks/base" remote="aosp-caf" />
-  <project name="platform_frameworks_native" path="frameworks/native" remote="aosp-caf" />
+  
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="aosp-caf" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosp-caf" />
+  
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="n-mr1-caf" remote="aosp-caf" />
@@ -131,6 +135,7 @@
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" revision="n-mr1-caf" remote="aosp-caf" />
+  
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aosp-caf" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="aosp-caf" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aosp-caf" />
@@ -139,14 +144,14 @@
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aosp-caf" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosp-caf" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="aosp-caf" />
+  
   <project name="platform_system_bt" path="system/bt" remote="aosp-caf" />
-  <project name="platform_system_core" path="system/core" remote="aosp-caf" />
   <project name="platform_system_extras" path="system/extras" remote="aosp-caf" />
-  <project name="platform_system_media" path="system/media" remote="aosp-caf" />
   <project name="platform_system_netd" path="system/netd" remote="aosp-caf" />
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
   <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
+  
   <project name="platform_vendor_aosp" path="vendor/aosp" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
@@ -160,5 +165,22 @@
   <!-- BEGIN SUBSTRATUM -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
   <!-- ENG SUBSTRATUM -->
+  
+  <!-- Slim Additions -->
+  <project path="system/core" remote="slim" name="android_system_core" />
+  <project path="system/media" remote="slim" name="android_system_media" />
+  
+  <project path="external/exfat" remote="slim" name="android_external_exfat" />
+  <project path="external/ffmpeg" remote="slim" name="android_external_ffmpeg" />
+  <project path="external/fuse" remote="slim" name="android_external_fuse" />
+  <project path="external/stagefright-plugins" remote="slim" name="android_external_stagefright-plugins" />
+  <project path="external/ntfs-3g" remote="slim" name="android_external_ntfs-3g" />
+  
+  <project path="frameworks/av" remote="slim" name="frameworks_av" />
+  <project path="frameworks/opt/cards" remote="slim" name="frameworks_opt_cards" />
+  <project path="frameworks/native" remote="slim" name="frameworks_native" />
+<!--  <project path="frameworks/opt/net/wifi" remote="slim" name="frameworks_opt_net_wifi" /> -->
+  
+  <project path="packages/apps/SamsungServiceMode" remote="slim" name="packages_apps_SamsungServiceMode" /> 
 
 </manifest>
