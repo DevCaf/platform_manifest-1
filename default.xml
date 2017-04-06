@@ -206,7 +206,7 @@
   <project groups="pdk" name="platform/external/libhevc" path="external/libhevc"/>
   <project groups="pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo"/>
   <project groups="pdk" name="platform/external/liblzf" path="external/liblzf"/>
-  <project groups="pdk" name="platform/external/libmicrohttpd" path="external/libmicrohttpd"/>
+<!--  <project groups="pdk" name="platform/external/libmicrohttpd" path="external/libmicrohttpd"/> -->
   <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2"/>
   <project groups="pdk" name="platform/external/libmtp" path="external/libmtp"/>
   <project name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack"/>

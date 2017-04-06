@@ -167,20 +167,20 @@
   <!-- ENG SUBSTRATUM -->
   
   <!-- Slim Additions -->
-  <project path="system/core" remote="slim" name="android_system_core" />
-  <project path="system/media" remote="slim" name="android_system_media" />
+  <project name="android_system_core" path="system/core" remote="slim" />
+  <project name="android_system_media" path="system/media" remote="slim" />
   
-  <project path="external/exfat" remote="slim" name="android_external_exfat" />
-  <project path="external/ffmpeg" remote="slim" name="android_external_ffmpeg" />
-  <project path="external/fuse" remote="slim" name="android_external_fuse" />
-  <project path="external/stagefright-plugins" remote="slim" name="android_external_stagefright-plugins" />
-  <project path="external/ntfs-3g" remote="slim" name="android_external_ntfs-3g" />
+  <project name="android_external_exfat" path="external/exfat" remote="slim" />
+  <project name="android_external_ffmpeg" path="external/ffmpeg" remote="slim" />
+  <project name="android_external_fuse" path="external/fuse" remote="slim" />
+  <project name="android_external_stagefright-plugins" path="external/stagefright-plugins" remote="slim" />
+  <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="slim" />
   
-  <project path="frameworks/av" remote="slim" name="frameworks_av" />
-  <project path="frameworks/opt/cards" remote="slim" name="frameworks_opt_cards" />
-  <project path="frameworks/native" remote="slim" name="frameworks_native" />
-<!--  <project path="frameworks/opt/net/wifi" remote="slim" name="frameworks_opt_net_wifi" /> -->
+  <project name="frameworks_av" path="frameworks/av" remote="slim" />
+  <project name="frameworks_opt_cards" path="frameworks/opt/cards" remote="slim" />
+  <project name="frameworks_native" path="frameworks/native" remote="slim" />
+<!--  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="slim" /> -->
   
-  <project path="packages/apps/SamsungServiceMode" remote="slim" name="packages_apps_SamsungServiceMode" /> 
+  <project name="packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="slim" /> 
 
 </manifest>
